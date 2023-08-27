@@ -1,7 +1,7 @@
 let myFun = (function () {
   let name = ""; //private
 
-  const getName = function () {
+  const getName = () => {
     return name;
   };
   const setName = function (newName) {
